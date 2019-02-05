@@ -24,8 +24,12 @@ The user guide corresponding to this version of the framework can be found
 
 ##Installation & updates
 
-`composer create-project codeigniter4/devstarter` then `composer update` whenever
+`composer create-project codeigniter4/devstarter -s dev` then `composer update` whenever
 you want to pull the latest updates.
+
+**Compare your `app/Config` folder to that inside `vendor/codeigniter4/codeigniter4/app/Config`,
+as there could be changes in the latter that need to be copied
+into yours.**
 
 ##Setup
 
