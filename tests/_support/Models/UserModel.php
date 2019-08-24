@@ -10,12 +10,18 @@ class UserModel extends Model
 		'name',
 		'email',
 		'country',
-		'deleted',
+		'deleted_at',
 	];
 
 	protected $returnType = 'object';
 
 	protected $useSoftDeletes = true;
 
-	protected $dateFormat = 'integer';
+	protected $dateFormat = 'datetime';
+
+	public $name = '';
+
+	public $email = '';
+
+	public $country = '';
 }
