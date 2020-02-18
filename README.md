@@ -1,5 +1,9 @@
 # CodeIgniter 4 "Dev" Application Starter
 
+NOTE: This repo is deprecated as of the official 4.0.0 release. It was originally made available for pre-release work
+so is no longer necessary. If you require a similar setup, install the appstarter repo instead, and manually change
+`composer.json` to point to the `dev-develop` branch.
+
 ## What is CodeIgniter?
 
 CodeIgniter is a PHP full-stack web framework that is light, fast, flexible, and secure. 
